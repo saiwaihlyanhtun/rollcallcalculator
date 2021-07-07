@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:background="#85ECE7">
+
+	<ImageView
+		android:id="@+id/splashscreen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/splash"
+		android:layout_gravity="center"
+		android:layout_marginTop="100dp"/>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/app_name"
+		android:gravity="center"
+		android:background="#00FE00"
+		android:textColor="#FF0F00"
+		android:textSize="30sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="ကြကိုယ္တြက္ဖို႔ကြကိုယ္ေရးသည္။  :3"
+		android:gravity="center"
+		android:layout_marginTop="60dp"
+		android:textSize="20sp"
+		android:textColor="#6478DC"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="bottom|right">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Version 1.0"
+			android:gravity="bottom|right"
+			android:layout_margin="25dp"
+			android:textSize="20sp"
+			android:textColor="#0012FF"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

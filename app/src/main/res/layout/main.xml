@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:background="#F0D973">
+
+	<TextView
+		android:layout_height="35dp"
+		android:layout_width="fill_parent"
+		android:text="ROLL CALL CALCULATOR"
+		android:textColor="#FFFFFF"
+		android:gravity="center"
+		android:background="#002AFF"
+		android:textSize="18sp"
+		android:layout_margin="4dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="အတန္းပ်က္ေသာအခ်ိန္စုစုေပါင္း"
+		android:background="#FF00EA"
+		android:textColor="#7CECF9"
+		android:layout_marginBottom="10dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="50dp"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_marginBottom="20dp"
+			android:id="@+id/edit1"
+			android:background="@drawable/border"
+			android:hint="1Day ×7"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="တစ္လလံုး႐ွိေက်ာင္းဖြင့္ရက္"
+		android:background="#FF00EA"
+		android:textColor="#7CECF9"
+		android:layout_marginBottom="10dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="50dp"
+			android:inputType="number"
+			android:layout_width="150dp"
+			android:ems="10"
+			android:id="@+id/edit2"
+			android:background="@drawable/border"
+			android:hint="22"
+			android:gravity="center"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Calculate"
+			android:textColor="#55EBE1"
+			android:textSize="25sp"
+			android:background="@drawable/buttonshape"
+			android:shadowColor="#0B00A8"
+			android:shadowRadius="10"
+			android:id="@+id/calc"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="ျပကၡဒိန္ၾကည့္ရန္"
+		android:textColor="#55EBE1"
+		android:textSize="25sp"
+		android:background="@drawable/buttonshape"
+		android:shadowColor="#0B00A8"
+		android:shadowRadius="10"
+		android:id="@+id/cal"
+		android:layout_marginTop="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="ABOUT"
+		android:textColor="#55EBE1"
+		android:textSize="25sp"
+		android:background="@drawable/buttonshape"
+		android:shadowColor="#0B00A8"
+		android:shadowRadius="10"
+		android:id="@+id/about"
+		android:layout_marginBottom="10dp"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:background="#C1E5E5">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="RESULT"
+			android:textColor="#038025"
+			android:textSize="20sp"
+			android:id="@+id/result"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:gravity="center"
+			android:textColor="#FF0606"
+			android:id="@+id/wr"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:id="@+id/img"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

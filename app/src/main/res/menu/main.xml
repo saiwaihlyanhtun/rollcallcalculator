@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/calendar"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="calendar" />
+    <item android:id="@+id/about"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="about" />
+    <item android:id="@+id/exit"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:title="exit"/>
+</menu>
